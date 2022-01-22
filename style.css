@@ -30,3 +30,12 @@
  article:nth-child(2) {
      flex: 2;
  }
+ 
+ #tablero {
+     border-style: solid;
+     border-color: red;
+ }
+ 
+ #tablero div {
+     border-style: solid;
+ }
