@@ -34,8 +34,12 @@
  #tablero {
      border-style: solid;
      border-color: red;
+     display: grid;
+     grid-template-columns: 1fr 2fr;
  }
  
  #tablero div {
      border-style: solid;
+     margin: 10px;
+     padding: 5px;
  }
