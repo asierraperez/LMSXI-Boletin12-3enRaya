@@ -36,6 +36,9 @@
      border-color: red;
      display: grid;
      grid-template-columns: 1fr 2fr;
+     grid-template-rows: 2fr 10fr;
+     height: 75vh;
+     gap: 5px;
  }
  
  #tablero div {
