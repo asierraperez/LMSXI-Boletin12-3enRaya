@@ -32,6 +32,7 @@
  }
  
  #tablero {
+     flex: 1;
      border-style: solid;
      border-color: red;
      display: grid;
@@ -45,4 +46,20 @@
      border-style: solid;
      margin: 10px;
      padding: 5px;
+ }
+
+
+
+#leyenda{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     border-style: solid;
+    
+ }
+
+ #leyenda div {
+    border-style :solid;
+    margin: 10px;
+
  }
