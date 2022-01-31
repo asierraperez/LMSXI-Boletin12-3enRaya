@@ -1,5 +1,5 @@
  html {
-     font-family: 'Helvetica Neue';
+     font-family:Arial, Helvetica, sans-serif;
  }
  
  body {
@@ -7,7 +7,7 @@
  }
  
  header {
-     background: rgb(175, 225, 175);
+     background: rgb(238, 210, 201);
      text-align: center;
      height: max-content;
      padding: 1em;
@@ -22,21 +22,21 @@
  
  article {
      flex: 1;
-     border-width: 1px;
-     border-style: solid;
      padding: 1em;
+     text-align: center;
+     background-color:rgb(238, 210, 201);
+     margin :15px;
  }
  
- article:nth-child(2) {
-     flex: 2;
- }
+ 
  
  #tablero {
+     flex: 1;
      border-style: solid;
      border-color: red;
      display: grid;
-     grid-template-columns: 1fr 2fr;
-     grid-template-rows: 2fr 10fr;
+     grid-template-columns: 1fr 1fr  1fr;
+     grid-template-rows: 1fr 1fr 1fr;
      height: 75vh;
      gap: 5px;
  }
@@ -46,3 +46,63 @@
      margin: 10px;
      padding: 5px;
  }
+
+
+
+#leyenda{
+     display: grid;
+     grid-gap:1px;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     border-style: solid;
+     padding: 5px;
+    
+ }
+
+ #leyenda div {
+    border-style :solid;
+    border-width: 1px;;
+    margin: 00px;
+    padding: 5px;
+
+ }
+
+ h2{
+    border-style: solid;
+     text-align: center;    
+    border-width: 0px;
+    border-top-width: 1px;
+    padding-top: 15px;
+     border-top-color: black;
+ }
+
+ article:nth-child(1) {
+     text-align: justify;
+     
+ }
+
+ article:nth-child(1) p{
+     font-size: 12pt;
+ }
+
+
+ article:nth-child(2) {
+    flex: 2;
+}
+
+
+article:nth-child(3) p{
+    font-size: 16pt;
+}
+
+article > p{
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    padding-top: 15px;
+
+}
+
+article * p{
+    font-weight: bold;
+}
