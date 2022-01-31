@@ -35,8 +35,8 @@
      border-style: solid;
      border-color: red;
      display: grid;
-     grid-template-columns: 1fr 2fr;
-     grid-template-rows: 2fr 10fr;
+     grid-template-columns: 1fr 1fr  1fr;
+     grid-template-rows: 1fr 1fr 1fr;
      height: 75vh;
      gap: 5px;
  }
