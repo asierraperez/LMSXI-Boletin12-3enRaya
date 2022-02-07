@@ -114,3 +114,12 @@ article:nth-child(1) div{
     background-position: center ;
     padding-top: 194px;
 }
+
+#imagen2{
+    background-image: url("./images/Hank_Scorpio.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding-top: 194px;
+    background-size: contain;
+    margin-bottom: 15px;
+}
