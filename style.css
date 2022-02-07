@@ -123,3 +123,11 @@ article:nth-child(1) div{
     background-size: contain;
     margin-bottom: 15px;
 }
+
+article:nth-child(3) div{
+    background-image: url("./images/Maquina_escribir.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding-top: 194px;
+    background-size: contain;
+}
