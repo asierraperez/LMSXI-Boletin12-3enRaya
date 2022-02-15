@@ -78,6 +78,8 @@
 
  article:nth-child(1) {
      text-align: justify;
+     display :flex;
+    flex-direction: column;
      
  }
 
@@ -105,4 +107,27 @@ article > p{
 
 article * p{
     font-weight: bold;
+}
+article:nth-child(1) div{
+    background-image: url("./images/Homer_hippie.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding-top: 194px;
+}
+
+#imagen2{
+    background-image: url("./images/Hank_Scorpio.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding-top: 194px;
+    background-size: contain;
+    margin-bottom: 15px;
+}
+
+article:nth-child(3) div{
+    background-image: url("./images/Maquina_escribir.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding-top: 194px;
+    background-size: contain;
 }
