@@ -46,8 +46,10 @@
      margin: 10px;
      padding: 5px;
  }
-
-
+ #tablero * img{
+     align-content: center;
+     margin: 10px;
+ }
 
 #leyenda{
      display: grid;
