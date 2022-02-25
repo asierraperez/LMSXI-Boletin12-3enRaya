@@ -46,8 +46,12 @@
      margin: 10px;
      padding: 5px;
  }
-
-
+ #tablero * img{
+     align-content: center;
+     margin:10px;
+     width:100px;
+     height: 100px;
+ }
 
 #leyenda{
      display: grid;
@@ -108,7 +112,7 @@ article > p{
 article * p{
     font-weight: bold;
 }
-article:nth-child(1) div{
+/*article:nth-child(1) div{
     background-image: url("./images/Homer_hippie.jpg");
     background-repeat: no-repeat;
     background-position: center ;
@@ -130,4 +134,4 @@ article:nth-child(3) div{
     background-position: center ;
     padding-top: 194px;
     background-size: contain;
-}
+}*/
